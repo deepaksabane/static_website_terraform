@@ -1,15 +1,15 @@
 variable "region" {
     description = "The region in which the resources will deploy "
-    type = string  
+    default = "ap-south-2"
 }
 
 variable "bucket_name" {
     description = "The bucket name  which we will create   "
-    type = string
+    default = "deepushivanshforever"
   
 }
 
 variable "profile_name" {
      description = "The profile name which it has access to create reasource in aws "
-     type = string
+     default = "arati_sdlc"
 }
